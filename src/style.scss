@@ -1,0 +1,28 @@
+.testPull {
+  font-size: 0.85em;
+  font-weight: bold;
+  width: 100%;
+  box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: stretch;
+  transition: height 0.3s;
+  /*background-color: tomato;*/
+}
+
+.testPull--pulling {
+  transition: none;
+}
+
+.testPull--content{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  flex-basis: 100%;
+}
+
+.testPull--text{
+  /*margin-top: .33em;*/
+}
